@@ -1,0 +1,28 @@
+.tableTransaction {
+  width: 600px;
+  text-align: center;
+  margin: 0 auto;
+  border-collapse: collapse;
+  font-weight: 500;
+  margin-bottom: 50px;
+
+  th,
+  td {
+    border: 2px solid black;
+  }
+}
+.tableTitle {
+  background-color: rgb(47, 47, 47);
+  color: aliceblue;
+}
+
+.tableRow {
+  color: black;
+  background-color: rgb(213, 211, 211);
+  &:nth-child(odd) {
+    background-color: white;
+  }
+  td:first-child {
+    text-transform: capitalize;
+  }
+}

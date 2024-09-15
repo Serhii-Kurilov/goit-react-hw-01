@@ -1,0 +1,18 @@
+.avatar {
+  width: 100px;
+  height: 100px;
+}
+.name {
+  font-size: 32px;
+  font-weight: 600;
+}
+.isOnline {
+  font-size: 24px;
+  font-weight: 400;
+  color: green;
+}
+.isOffline {
+  font-size: 24px;
+  font-weight: 400;
+  color: red;
+}
